@@ -1,0 +1,40 @@
+import Foundation
+
+/// Looks up interface strings in the String Catalog for the in-app language.
+/// The text of the book never goes through this type.
+enum L10n {
+    private static var cache: [String: Bundle] = [:]
+
+    static func text(_ key: String, _ language: AppLanguage) -> String {
+        let bundle = localizationBundle(for: language)
+        let value = bundle.localizedString(forKey: key, value: nil, table: "Localizable")
+        if value != key {
+            return value
+        }
+        // `value: nil` returns the key when the catalog has not been compiled
+        // into this bundle. Try the main bundle's development language next.
+        let fallback = Bundle.main.localizedString(forKey: key, value: nil, table: "Localizable")
+        return fallback
+    }
+
+    private static func localizationBundle(for language: AppLanguage) -> Bundle {
+        if let cached = cache[language.rawValue] {
+            return cached
+        }
+        if let path = Bundle.main.path(forResource: language.rawValue, ofType: "lproj"),
+           let bundle = Bundle(path: path) {
+            cache[language.rawValue] = bundle
+            return bundle
+        }
+        return .main
+    }
+}
+
+enum AppLinks {
+    /// GitHub Pages project site. Pages itself is not turned on from this repository.
+    static let support = URL(string: "https://dberrebi.github.io/BasAyiniOS/")!
+    static let privacy = URL(string: "https://dberrebi.github.io/BasAyiniOS/privacy/")!
+    /// The licence of the bundled text, as Sefaria publishes it.
+    static let textLicence = URL(string: "https://creativecommons.org/licenses/by-nc/4.0/")!
+    static let textSource = URL(string: "https://www.sefaria.org/Bat_Ayin")!
+}

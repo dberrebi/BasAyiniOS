@@ -1,0 +1,42 @@
+{
+  "generated_utc": "2026-11-21T19:21:50Z",
+  "database": "BasAyin/BasAyin/Resources/bas_ayin.sqlite",
+  "sha256": "56e7adf0423357696fd201a67ff84aa65ec9d7c016962f619ba7b18573a6aa0c",
+  "bytes": 5754880,
+  "licenses": {
+    "text": {
+      "work": "Bat Ayin (בת עין), Rabbi Avraham Dov of Ovruch",
+      "version": "Jerusalem, 2001",
+      "version_source": "https://www.nli.org.il/he/books/NNL_ALEPH002047217/NLI",
+      "language": "he",
+      "license": "CC-BY-NC",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "publisher": "Sefaria",
+      "note": "Non-commercial use only, with attribution. The app must stay free, without ads or in-app purchases."
+    },
+    "calendar": {
+      "provider": "Hebcal.com",
+      "license": "CC BY 4.0",
+      "url": "https://www.hebcal.com",
+      "years": [
+        2025,
+        2045
+      ]
+    }
+  },
+  "stats": {
+    "books": 5,
+    "sections": 74,
+    "festival_sections": 17,
+    "paragraphs": 2805,
+    "verse_citations": 181,
+    "max_paragraph_index": 110,
+    "weekly_rows": 2192,
+    "festival_days": 1537,
+    "combined_weeks": 213,
+    "israel_diaspora_differences": 75,
+    "bytes": 5754880,
+    "sha256": "56e7adf0423357696fd201a67ff84aa65ec9d7c016962f619ba7b18573a6aa0c",
+    "search": "fts5, tags and quote marks removed"
+  }
+}
