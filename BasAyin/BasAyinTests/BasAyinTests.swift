@@ -67,6 +67,8 @@ final class BasAyinTests: XCTestCase {
 
         let opening = try XCTUnwrap(store.paragraph(id: 1_001))
         XCTAssertTrue(HebrewText.plain(opening.body).contains("בראשית ברא"))
+        // "בראשית ברא וגו' והארץ היתה…" skips words after וגו', and still opens on Genesis 1:1.
+        XCTAssertEqual(opening.citation, VerseCitation(bookID: 1, chapter: 1, verse: 1))
         let vayeshev = try XCTUnwrap(store.paragraph(id: 9_001))
         XCTAssertEqual(vayeshev.citation, VerseCitation(bookID: 1, chapter: 37, verse: 1))
         XCTAssertEqual(store.citationTitle(try XCTUnwrap(vayeshev.citation), language: .he), "בראשית ל״ז, א׳")

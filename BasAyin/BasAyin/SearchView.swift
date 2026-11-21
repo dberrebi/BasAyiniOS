@@ -19,7 +19,8 @@ struct SearchView: View {
                 .textInputAutocapitalization(.never)
                 .autocorrectionDisabled()
                 .font(settings.language == .he ? .custom(Theme.hebrewFamily, size: 20, relativeTo: .body) : .body)
-                .multilineTextAlignment(settings.language == .he ? .trailing : .leading)
+                // Leading follows the layout direction: the right edge in the Hebrew interface.
+                .multilineTextAlignment(.leading)
                 .padding(.horizontal, 16)
                 .padding(.vertical, 12)
                 .listRowInsets(EdgeInsets())

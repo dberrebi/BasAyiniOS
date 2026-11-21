@@ -51,6 +51,8 @@ struct ReadingView: View {
     @State private var topID: Int?
     @State private var hasScrolled = false
     @State private var dwell: Task<Void, Never>?
+    /// The star grows with the system text size, so at the largest sizes it keeps clear of the text.
+    @ScaledMetric(relativeTo: .body) private var starSize: CGFloat = 32
 
     /// A paragraph becomes the saved place only after it stays at the top this long
     /// once the reader has scrolled, so flicking through a section does not count.
@@ -186,7 +188,7 @@ struct ReadingView: View {
                 Image(systemName: saved ? "star.fill" : "star")
                     .font(.body)
                     .foregroundStyle(Theme.accent)
-                    .frame(width: 32, height: 32)
+                    .frame(width: starSize, height: starSize)
                     // Apple's minimum touch target is 44 by 44 points. Widen the tappable
                     // area without moving the star or the text beside it.
                     .contentShape(Rectangle().inset(by: -6))

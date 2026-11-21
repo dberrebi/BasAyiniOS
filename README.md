@@ -78,7 +78,7 @@ The Mac job builds with Xcode 26 on `macos-26`, with signing off, and runs the u
 - **Book.** The sections of that book in the order of the edition. Festival derashot appear where the book prints them (חנוכה in בראשית, פורים in שמות, and so on).
 - **Festivals and special Shabbatot.** The 17 festival and special-Shabbat sections together, from ערב ראש השנה to שבועות.
 - **Likkutim and responsa.** The two sections at the end of the book.
-- **Reading.** One section, or several when the week joins them, paragraph by paragraph. The first word of each paragraph is bold, as in the edition. When a paragraph opens a derush by quoting a verse, the verse's reference appears above it (181 places). דרוש לפרשת שקלים and פרשת פרה are one-line pointers in the edition; the reader adds a button to כי תשא and חקת, where those derashot are printed. A star saves a paragraph. A long press copies or shares the Hebrew text with its reference and the source.
+- **Reading.** One section, or several when the week joins them, paragraph by paragraph. The first word of each paragraph is bold, as in the edition. When a paragraph opens a derush by quoting a verse, the verse's reference appears above it (188 places). דרוש לפרשת שקלים and פרשת פרה are one-line pointers in the edition; the reader adds a button to כי תשא and חקת, where those derashot are printed. A star saves a paragraph. A long press copies or shares the Hebrew text with its reference and the source.
 - **This week.** The coming Shabbat (today, on Shabbat) using the Israel or Diaspora table from Settings: the parasha, combined parshiyot together, the special Shabbat, and every festival with a day (or its eve) between today and that Shabbat: Rosh HaShanah, Yom Kippur, Sukkot, Shemini Atzeret, Simchat Torah (וזאת הברכה), Chanukah, Purim, Pesach (with the Shabbat Chol HaMoed derashot on that Shabbat), and Shavuot. A festival that ended earlier in the week is not shown again.
 - **Search.** Offline full-text search. Abbreviations match with or without quote marks (חז״ל, חז"ל and חזל). A result shows the section, the paragraph, and a snippet, and opens that place.
 - **Resume and history.** The last paragraph, and recently read sections.
@@ -116,7 +116,7 @@ Paragraph ids are `section × 1000 + paragraph`, where sections are numbered 1�
 
 The script refuses any Bat Ayin file whose `versionTitle` or `license` is not exactly the pair above. It never requests the partial English community translation.
 
-A verse heading is added only when a paragraph opens with a quotation followed by a Torah citation, such as `וישב יעקב בארץ מגורי אביו וגו' (לז א)`, and the first words of the quotation are found in that verse (or the next ones) of the Torah text. Inside its own book the edition omits the book name, so the section's book is used.
+A verse heading is added only when a paragraph opens with a quotation followed by a Torah citation, such as `וישב יעקב בארץ מגורי אביו וגו' (לז א)`, and the first words of the quotation, up to the first וגו' or כו', are found in that verse (or the next ones) of the Torah text. Inside its own book the edition omits the book name, so the section's book is used.
 
 ## Licences and attribution
 
