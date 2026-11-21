@@ -1,7 +1,7 @@
 {
-  "generated_utc": "2026-11-21T19:21:50Z",
+  "generated_utc": "2026-11-21T20:16:08Z",
   "database": "BasAyin/BasAyin/Resources/bas_ayin.sqlite",
-  "sha256": "56e7adf0423357696fd201a67ff84aa65ec9d7c016962f619ba7b18573a6aa0c",
+  "sha256": "8a2c559a9f13828713a88de910344e39a342ad028c5a6a34458a6bd56950b2b9",
   "bytes": 5754880,
   "licenses": {
     "text": {
@@ -29,14 +29,14 @@
     "sections": 74,
     "festival_sections": 17,
     "paragraphs": 2805,
-    "verse_citations": 181,
+    "verse_citations": 188,
     "max_paragraph_index": 110,
     "weekly_rows": 2192,
     "festival_days": 1537,
     "combined_weeks": 213,
     "israel_diaspora_differences": 75,
     "bytes": 5754880,
-    "sha256": "56e7adf0423357696fd201a67ff84aa65ec9d7c016962f619ba7b18573a6aa0c",
+    "sha256": "8a2c559a9f13828713a88de910344e39a342ad028c5a6a34458a6bd56950b2b9",
     "search": "fts5, tags and quote marks removed"
   }
 }

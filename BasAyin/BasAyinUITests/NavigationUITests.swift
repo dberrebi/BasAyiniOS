@@ -376,10 +376,14 @@ final class WalkthroughUITests: XCTestCase {
     }
 
     /// Home is the root of the stack: it has no back button, and its rows exist.
+    /// Any "home." element counts: at the largest text size one swipe can scroll every
+    /// named row off screen, but the favourites star in the home bar is always there.
     private var isHome: Bool {
         guard !app.navigationBars.buttons["BackButton"].exists else { return false }
-        return ["home.resume", "home.search", "home.settings", "home.about"]
-            .contains { element($0).exists }
+        return app.descendants(matching: .any)
+            .matching(NSPredicate(format: "identifier BEGINSWITH %@", "home."))
+            .firstMatch
+            .exists
     }
 
     private func goBack() {
@@ -388,10 +392,10 @@ final class WalkthroughUITests: XCTestCase {
         if back.exists {
             back.tap()
         } else {
-            // Fallback: the first bar button that is not Share.
+            // Fallback: the first bar button that is neither Share nor the home bar's favourites star.
             for index in 0..<buttons.count {
                 let button = buttons.element(boundBy: index)
-                if ["שיתוף", "Share"].contains(button.label) { continue }
+                if ["שיתוף", "Share"].contains(button.label) || button.identifier == "home.favourites" { continue }
                 button.tap()
                 break
             }

@@ -533,6 +533,9 @@ def self_test() -> None:
     assert detect_citation("<b>ולהבין</b> זה, הנה כתוב (בראשית ו ה) כי", 1, torah) is None
     assert detect_citation("<b>וזהו</b> (בראשית לז א) וישב יעקב", 1, torah) is None
     assert detect_citation("<b>וזה</b> וישב יעקב וגו' (לז א)", 1, torah) is None
+    torah[1][0][0] = "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ"
+    torah[1][0][1] = "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ"
+    assert detect_citation("<b>בראשית ברא וגו' והארץ היתה תהו ובהו וגו'</b> (בראשית א א - ג). לפרש", 1, torah) == (1, 1, 1)
 
 
 def fetch(url: str, retries: int = 4) -> bytes:
@@ -647,11 +650,14 @@ def skeleton(word: str) -> str:
 
 def quote_opens_verse(before: str, verses: list[str]) -> bool:
     """The paragraph's opening words are the first words of its quotation of the cited verse(s)."""
-    words = [word for word in hebrew_words(before) if word not in ELLIPSIS_WORDS]
+    words = hebrew_words(before)
     for lead in QUOTE_LEADS:
         if tuple(words[: len(lead)]) == lead:
             words = words[len(lead):]
-    probe = [skeleton(word) for word in words[:3]]
+    # Only the words before the first "and so on": the quotation skips there, so the
+    # next words are from further on, as in "בראשית ברא וגו' והארץ היתה תהו".
+    cut = next((i for i, word in enumerate(words) if word in ELLIPSIS_WORDS), len(words))
+    probe = [skeleton(word) for word in words[:cut][:3]]
     if len(probe) < 2 and not (probe and len(probe[0]) >= 3):
         return False
     target = [skeleton(word) for word in hebrew_words(" ".join(verses))]

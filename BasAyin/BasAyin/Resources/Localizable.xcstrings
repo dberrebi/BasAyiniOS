@@ -347,13 +347,13 @@
         "he": {
           "stringUnit": {
             "state": "translated",
-            "value": "בת עין, מהדורת ירושלים 2001, מתוך ספריא. רישיון CC BY-NC 4.0: שימוש לא מסחרי בלבד."
+            "value": "בת עין, מהדורת ירושלים 2001, מתוך ספריא.\nרישיון CC BY-NC 4.0 · שימוש לא מסחרי בלבד"
           }
         },
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Bat Ayin, Jerusalem 2001 edition, from Sefaria. Licence CC BY-NC 4.0: non-commercial use only."
+            "value": "Bat Ayin, Jerusalem 2001 edition, from Sefaria.\nLicence CC BY-NC 4.0 · non-commercial use only"
           }
         }
       }
@@ -806,7 +806,7 @@
         "he": {
           "stringUnit": {
             "state": "translated",
-            "value": "נוסח הספר: בת עין, הגרסה העברית Jerusalem, 2001 (מהדורת ירושלים, 2001), כפי שפורסמה בספריא. מקור הגרסה: הספרייה הלאומית. רישיון Creative Commons ייחוס-שימוש לא מסחרי 4.0 (CC BY-NC 4.0). האפליקציה חינמית, בלי פרסומות ובלי רכישות. https://www.sefaria.org/Bat_Ayin\n\nמראי המקומות של הפסוקים מעל הדרושים לקוחים מהספר עצמו. בעת בניית האפליקציה הושוו הציטוטים לנוסח המקרא Tanach with Text Only (רשות הציבור), שאינו כלול באפליקציה.\n\nלוח הלימוד, כולל פרשות מחוברות, שבתות מיוחדות, מועדים וההבדל בין ישראל לחוץ לארץ: Hebcal.com, ברישיון Creative Commons Attribution 4.0 (CC BY 4.0). יש לייחס את הלוח ל־Hebcal.com. https://www.hebcal.com\n\nהגופן: Noto Serif Hebrew, © 2022 The Noto Project Authors, SIL Open Font License 1.1.\n\nהטקסט באפליקציה הוא עברית בלבד. אין בה תרגום."
+            "value": "נוסח הספר: בת עין, מהדורת ירושלים 2001, כפי שפורסמה בספריא. מקור הגרסה: הספרייה הלאומית.\nרישיון: CC BY-NC 4.0 (ייחוס, שימוש לא מסחרי). האפליקציה חינמית, בלי פרסומות ובלי רכישות.\nhttps://www.sefaria.org/Bat_Ayin\n\nמראי המקומות של הפסוקים מעל הדרושים לקוחים מהספר עצמו. בעת בניית האפליקציה הושוו הציטוטים לנוסח התורה שבספריא, שהוא ברשות הציבור ואינו כלול באפליקציה.\n\nלוח הלימוד, כולל פרשות מחוברות, שבתות מיוחדות, מועדים וההבדל בין ישראל לחוץ לארץ: Hebcal.com.\nרישיון: CC BY 4.0. יש לייחס את הלוח ל־Hebcal.com.\nhttps://www.hebcal.com\n\nהגופן: Noto Serif Hebrew, © 2022 The Noto Project Authors.\nרישיון: SIL Open Font License 1.1.\n\nהטקסט באפליקציה הוא עברית בלבד. אין בה תרגום."
           }
         },
         "en": {
