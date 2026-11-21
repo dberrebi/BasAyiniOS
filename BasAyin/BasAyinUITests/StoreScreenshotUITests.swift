@@ -29,9 +29,8 @@ final class StoreScreenshotUITests: XCTestCase {
         try shot("light-weekly")
         if !isPad { pop() }
 
-        tap("home.book.1")
+        open("home.book.1", until: "section.1")
         let bereshit = app.descendants(matching: .any)["section.1"]
-        XCTAssertTrue(bereshit.waitForExistence(timeout: 10))
         try shot("light-section-list")
         bereshit.tap()
         waitForReader()
@@ -43,21 +42,36 @@ final class StoreScreenshotUITests: XCTestCase {
 
         tap("home.search")
         let hit = app.descendants(matching: .any).matching(NSPredicate(format: "identifier BEGINSWITH %@", "search.hit.")).firstMatch
-        XCTAssertTrue(hit.waitForExistence(timeout: 10))
+        XCTAssertTrue(hit.waitForExistence(timeout: Self.patience))
         try shot("light-search")
         if !isPad { pop() }
 
-        tap("home.settings")
-        XCTAssertTrue(app.descendants(matching: .any)["settings.privacy"].waitForExistence(timeout: 10))
+        open("home.settings", until: "settings.privacy")
         try shot("light-settings")
     }
 
     func testHebrewDarkChrome() throws {
         launch(appearance: "dark")
         try shot("dark-home")
-        tap("home.book.1")
-        XCTAssertTrue(app.descendants(matching: .any)["section.1"].waitForExistence(timeout: 10))
+        open("home.book.1", until: "section.1")
         try shot("dark-section-list")
+    }
+
+    /// How long to wait for a screen. On a busy hosted Mac one accessibility query has
+    /// taken 30 seconds, and a list that opened in time was then missed by a 10-second wait.
+    private static let patience: TimeInterval = 30
+
+    /// Taps a home row and waits for an element of the screen it opens. A tap that a busy
+    /// simulator dropped leaves the row on screen; it is tapped once more.
+    private func open(_ identifier: String, until next: String) {
+        tap(identifier)
+        let target = app.descendants(matching: .any)[next]
+        if target.waitForExistence(timeout: Self.patience) { return }
+        let source = app.descendants(matching: .any)[identifier]
+        if source.exists, source.isHittable {
+            source.tap()
+        }
+        XCTAssertTrue(target.waitForExistence(timeout: Self.patience), "\(identifier) did not open \(next)")
     }
 
     private var isPad: Bool {
@@ -77,7 +91,8 @@ final class StoreScreenshotUITests: XCTestCase {
         app = XCUIApplication()
         app.launchArguments = ["-appearance", appearance, "-search-query", "חנוכה"]
         app.launch()
-        XCTAssertTrue(app.descendants(matching: .any)["home.search"].waitForExistence(timeout: 20))
+        // A fresh launch on a hosted Mac has taken over 40 seconds.
+        XCTAssertTrue(app.descendants(matching: .any)["home.search"].waitForExistence(timeout: 90))
     }
 
     private func tap(_ identifier: String) {
@@ -111,7 +126,7 @@ final class StoreScreenshotUITests: XCTestCase {
             if !back.waitForExistence(timeout: 3) { break }
             back.tap()
         }
-        XCTAssertTrue(home.waitForExistence(timeout: 8), "Did not return to the home list")
+        XCTAssertTrue(home.waitForExistence(timeout: Self.patience), "Did not return to the home list")
     }
 
     private func waitForReader() {
