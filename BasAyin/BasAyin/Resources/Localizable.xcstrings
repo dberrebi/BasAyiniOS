@@ -1,0 +1,1145 @@
+{
+  "sourceLanguage": "he",
+  "strings": {
+    "app.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בת עין"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bas Ayin"
+          }
+        }
+      }
+    },
+    "welcome.subtitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בחרו חומש, מועד או את הלימוד השבועי"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose a book, a festival, or this week's reading"
+          }
+        }
+      }
+    },
+    "data.missing": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "לא נמצא קובץ הטקסט בתוך האפליקציה."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The bundled text could not be opened."
+          }
+        }
+      }
+    },
+    "home.resume": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שחזר מיקום אחרון"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume last place"
+          }
+        }
+      }
+    },
+    "home.history": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "היסטוריה"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "History"
+          }
+        }
+      }
+    },
+    "home.weekly": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הלימוד השבועי"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week's reading"
+          }
+        }
+      }
+    },
+    "home.search": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "חיפוש"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search"
+          }
+        }
+      }
+    },
+    "home.moadim": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מועדים ושבתות מיוחדות"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Festivals and special Shabbatot"
+          }
+        }
+      }
+    },
+    "home.appendix": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ליקוטים ושו״ת"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Likkutim and Responsa"
+          }
+        }
+      }
+    },
+    "home.settings": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הגדרות"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    },
+    "home.help": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "עזרה"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Help"
+          }
+        }
+      }
+    },
+    "home.about": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אודות"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
+          }
+        }
+      }
+    },
+    "home.resume.empty": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "עדיין אין מיקום שמור"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No saved place yet"
+          }
+        }
+      }
+    },
+    "home.weekly.empty": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אין לימוד בלוח לתאריך זה"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing is scheduled for this date"
+          }
+        }
+      }
+    },
+    "home.weekly.outOfRange": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הלוח המצורף מכסה את השנים %@–%@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The bundled calendar covers %@–%@"
+          }
+        }
+      }
+    },
+    "reading.paragraph": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "פסקה %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paragraph %@"
+          }
+        }
+      }
+    },
+    "reading.citation": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ %@, %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ %@:%@"
+          }
+        }
+      }
+    },
+    "reading.redirect": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "לפרשת %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Go to %@"
+          }
+        }
+      }
+    },
+    "reading.empty": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אין פסקאות להצגה"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing to display"
+          }
+        }
+      }
+    },
+    "reading.missingPlace": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "המיקום השמור אינו נמצא בספר"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The saved place is not in this edition"
+          }
+        }
+      }
+    },
+    "reading.footer": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בת עין, מהדורת ירושלים 2001, מתוך ספריא. רישיון CC BY-NC 4.0: שימוש לא מסחרי בלבד."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bat Ayin, Jerusalem 2001 edition, from Sefaria. Licence CC BY-NC 4.0: non-commercial use only."
+          }
+        }
+      }
+    },
+    "history.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "היסטוריה"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "History"
+          }
+        }
+      }
+    },
+    "history.empty": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "המקומות שתקראו יופיעו כאן"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Places you read will appear here"
+          }
+        }
+      }
+    },
+    "favourites.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מועדפים"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favourites"
+          }
+        }
+      }
+    },
+    "favourites.empty": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אין עדיין פסקאות שמורות. בתוך הקריאה, הכוכב שומר פסקה."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No saved paragraphs yet. In the reading, the star keeps a paragraph."
+          }
+        }
+      }
+    },
+    "settings.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הגדרות"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    },
+    "settings.language": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שפת הממשק"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Interface language"
+          }
+        }
+      }
+    },
+    "settings.language.he": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "עברית"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "עברית"
+          }
+        }
+      }
+    },
+    "settings.language.en": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "English"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "English"
+          }
+        }
+      }
+    },
+    "settings.calendar": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "לוח הלימוד"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading calendar"
+          }
+        }
+      }
+    },
+    "settings.calendar.israel": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ישראל"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Israel"
+          }
+        }
+      }
+    },
+    "settings.calendar.diaspora": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "חוץ לארץ"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diaspora"
+          }
+        }
+      }
+    },
+    "settings.calendar.footer": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הלוח קובע את הלימוד השבועי: פרשת השבוע, השבתות המיוחדות והמועדים."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The calendar sets this week's reading: the parasha, the special Shabbatot, and the festivals."
+          }
+        }
+      }
+    },
+    "settings.text": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "טקסט"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text"
+          }
+        }
+      }
+    },
+    "settings.fontSize": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "גודל אות"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Font size"
+          }
+        }
+      }
+    },
+    "settings.dynamicType": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "גודל האות מגיב גם להגדרת גודל הטקסט של המערכת."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Size also follows the system text-size setting."
+          }
+        }
+      }
+    },
+    "settings.appearance": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מראה"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appearance"
+          }
+        }
+      }
+    },
+    "settings.appearance.system": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "לפי המערכת"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System"
+          }
+        }
+      }
+    },
+    "settings.appearance.light": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בהיר"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light"
+          }
+        }
+      }
+    },
+    "settings.appearance.dark": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "כהה"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dark"
+          }
+        }
+      }
+    },
+    "settings.privacy.footer": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "האפליקציה אינה אוספת מידע. הקישור נפתח בדפדפן."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The app collects no data. The link opens in the browser."
+          }
+        }
+      }
+    },
+    "help.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "עזרה"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Help"
+          }
+        }
+      }
+    },
+    "help.body": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "האפליקציה מציגה את ספר בת עין של רבי אברהם דוב מאבריטש בעברית, בלי חיבור לאינטרנט.\n\nשחזר מיקום אחרון חוזר אל הפסקה האחרונה שבה עמדתם. היסטוריה שומרת את המקומות שקראתם לאחרונה.\n\nהלימוד השבועי פותח את הדרושים לפרשת השבוע לפי הלוח שנבחר בהגדרות: ישראל או חוץ לארץ. בשבתות המיוחדות (שקלים, זכור, פרה, החודש, הגדול ושובה) נוספים הדרושים לאותה שבת. מועד שחל מהיום ועד השבת מוסיף את דרושיו: ראש השנה, יום כיפור, סוכות, שמחת תורה, חנוכה, פורים, פסח ושבועות. כשקוראים שתי פרשות מחוברות, הן נפתחות ברצף.\n\nבחרו חומש, ואחר כך פרשה. דרושי המועדים מופיעים בחומש במקום שבו נדפסו בספר, וגם יחד במסך מועדים ושבתות מיוחדות. בסוף הספר נמצאים הליקוטים והשאלות והתשובות.\n\nכשפסקה פותחת דרוש בפסוק, מראה המקום של הפסוק מופיע מעליה. המילה הראשונה של כל פסקה מודגשת, כמו בספר. דרושים לפרשת שקלים ולפרשת פרה נדפסו בתחילת כי תשא ובתחילת חקת, וכפתור מוביל לשם.\n\nחיפוש מוצא מילים בכל הספר. ראשי תיבות נמצאים עם גרשיים או בלעדיהם. לחיצה על תוצאה פותחת את המקום.\n\nהכוכב שומר פסקה במועדפים. לחיצה ארוכה מעתיקה או משתפת את הפסקה עם מראה המקום.\n\nבהגדרות אפשר לבחור את שפת הממשק, את הלוח, גודל אות, ומראה בהיר או כהה. גודל האות מגיב גם לגודל הטקסט של המערכת.\n\nהטקסט הוא עברית בלבד, ואין בו תרגום. שפת הממשק מחליפה מיד את הכיתוב, את כיוון הפריסה ואת אזור התאריך. שם האפליקציה במסך הבית, חלק מגיליונות המערכת, ושפת VoiceOver נשארים לפי שפת המכשיר."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The app shows Bas Ayin, by Rabbi Avraham Dov of Ovruch, in Hebrew, with no network connection.\n\nResume last place returns to the paragraph you were reading. History keeps the places you have read recently.\n\nThis week's reading opens the derashot for the weekly parasha, following the calendar chosen in Settings: Israel or the Diaspora. On the special Shabbatot (Shekalim, Zachor, Parah, HaChodesh, HaGadol, and Shuvah) the derashot for that Shabbat are added. A festival that falls between today and Shabbat adds its derashot: Rosh HaShanah, Yom Kippur, Sukkot, Simchat Torah, Chanukah, Purim, Pesach, and Shavuot. When two portions are read together, they open one after the other.\n\nChoose a book, then a parasha. The festival derashot appear in the book where the edition prints them, and also together under Festivals and special Shabbatot. The likkutim and the responsa are at the end of the book.\n\nWhen a paragraph opens a derush on a verse, the verse's reference appears above it. The first word of each paragraph is set in bold, as in the book. The derashot for Parashat Shekalim and Parashat Parah are printed at the start of Ki Tisa and of Chukat, and a button leads there.\n\nSearch finds words anywhere in the book. Abbreviations are found with or without quote marks. Tapping a result opens that place.\n\nThe star saves a paragraph to Favourites. A long press copies or shares the paragraph with its reference.\n\nSettings chooses the interface language, the calendar, type size, and light or dark appearance. Type size also follows the system text-size setting.\n\nThe text is Hebrew only; there is no translation. The interface language changes the wording, the layout direction, and date formatting immediately. The app name on the Home Screen, some system sheets, and the VoiceOver language stay on the device language."
+          }
+        }
+      }
+    },
+    "about.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אודות"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
+          }
+        }
+      }
+    },
+    "about.bookHeading": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הספר והמחבר"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The book and its author"
+          }
+        }
+      }
+    },
+    "about.book": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בת עין הוא ספר דרושים על התורה ועל המועדים מאת רבי אברהם דוב מאבריטש (אוורוטש), תלמידם של רבי מנחם נחום מצ׳רנוביל, רבי מרדכי מצ׳רנוביל ורבי לוי יצחק מברדיצ׳ב. תלמידיו ערכו את הספר מדרשותיו בשבתות ובמועדים. בשנת תקצ״א (1831) עלה לארץ ישראל והשתקע בצפת.\n\nהספר מסודר לפי סדר השנה. בסופו ליקוטים, ובהם דרוש שאמר ביום השנה להרוגי רעידת האדמה בצפת (תקצ״ז, 1837), ושאלות ותשובות בהלכה."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bas Ayin (Bat Ayin) is a book of derashot on the Torah and the festivals by Rabbi Avraham Dov of Ovruch (Avritch), a disciple of Rabbi Menachem Nachum of Chernobyl, Rabbi Mordechai of Chernobyl, and Rabbi Levi Yitzchak of Berditchev. His students edited it from his Shabbat and festival sermons. In 1831 he went up to the Land of Israel and settled in Safed.\n\nThe book follows the order of the year. At its end are likkutim, among them a derush he gave on the anniversary of those killed in the Safed earthquake of 1837, and responsa on halachah."
+          }
+        }
+      }
+    },
+    "about.sourcesHeading": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מקורות ורישיונות"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sources and licences"
+          }
+        }
+      }
+    },
+    "about.sources": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "נוסח הספר: בת עין, הגרסה העברית Jerusalem, 2001 (מהדורת ירושלים, 2001), כפי שפורסמה בספריא. מקור הגרסה: הספרייה הלאומית. רישיון Creative Commons ייחוס-שימוש לא מסחרי 4.0 (CC BY-NC 4.0). האפליקציה חינמית, בלי פרסומות ובלי רכישות. https://www.sefaria.org/Bat_Ayin\n\nמראי המקומות של הפסוקים מעל הדרושים לקוחים מהספר עצמו. בעת בניית האפליקציה הושוו הציטוטים לנוסח המקרא Tanach with Text Only (רשות הציבור), שאינו כלול באפליקציה.\n\nלוח הלימוד, כולל פרשות מחוברות, שבתות מיוחדות, מועדים וההבדל בין ישראל לחוץ לארץ: Hebcal.com, ברישיון Creative Commons Attribution 4.0 (CC BY 4.0). יש לייחס את הלוח ל־Hebcal.com. https://www.hebcal.com\n\nהגופן: Noto Serif Hebrew, © 2022 The Noto Project Authors, SIL Open Font License 1.1.\n\nהטקסט באפליקציה הוא עברית בלבד. אין בה תרגום."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text of the book: Bat Ayin, the Hebrew version Jerusalem, 2001, as published on Sefaria. Source of the version: the National Library of Israel. Licence Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0). The app is free, with no ads and no purchases. https://www.sefaria.org/Bat_Ayin\n\nThe verse references above the derashot come from the book itself. When the app was built, each quotation was checked against the Tanach with Text Only version of the Torah (public domain), which is not included in the app.\n\nReading calendar, including combined portions, special Shabbatot, festivals, and the Israel / Diaspora difference: Hebcal.com, under Creative Commons Attribution 4.0 (CC BY 4.0). Attribute the calendar to Hebcal.com. https://www.hebcal.com\n\nTypeface: Noto Serif Hebrew, © 2022 The Noto Project Authors, SIL Open Font License 1.1.\n\nThe text in the app is Hebrew only. It is not translated."
+          }
+        }
+      }
+    },
+    "about.licenceLink": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "רישיון CC BY-NC 4.0"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Licence CC BY-NC 4.0"
+          }
+        }
+      }
+    },
+    "about.sourceLink": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בת עין בספריא"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bat Ayin on Sefaria"
+          }
+        }
+      }
+    },
+    "about.offline": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "האפליקציה אינה מתחברת לרשת ואינה אוספת מידע. הקישורים נפתחים בדפדפן."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The app does not connect to the network and does not collect information. The links open in the browser."
+          }
+        }
+      }
+    },
+    "about.counts": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "גרסה %@ (%@). לוח הלימוד %@–%@. עודכן %@."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version %@ (%@). Reading calendar %@–%@. Updated %@."
+          }
+        }
+      }
+    },
+    "about.privacy": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מדיניות פרטיות"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy policy"
+          }
+        }
+      }
+    },
+    "a11y.share": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שיתוף"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share"
+          }
+        }
+      }
+    },
+    "a11y.favourites": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מועדפים"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favourites"
+          }
+        }
+      }
+    },
+    "a11y.addFavourite": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שמירה במועדפים"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save to favourites"
+          }
+        }
+      }
+    },
+    "a11y.removeFavourite": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הסרה מהמועדפים"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove from favourites"
+          }
+        }
+      }
+    },
+    "a11y.fontSize": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "גודל אות"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Font size"
+          }
+        }
+      }
+    },
+    "action.copy": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "העתקה"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy"
+          }
+        }
+      }
+    },
+    "action.sharePassage": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "שיתוף הפסקה"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share paragraph"
+          }
+        }
+      }
+    },
+    "share.app": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בת עין\nהלימוד השבועי: %@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bas Ayin\nThis week: %@"
+          }
+        }
+      }
+    },
+    "share.portion": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בת עין\n%@"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bas Ayin\n%@"
+          }
+        }
+      }
+    },
+    "share.passage": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "בת עין · %@\nפסקה %@\n\n%@\n\nמקור: בת עין, מהדורת ירושלים 2001, ספריא (CC BY-NC 4.0)"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bas Ayin · %@\nParagraph %@\n\n%@\n\nSource: Bat Ayin, Jerusalem 2001 edition, Sefaria (CC BY-NC 4.0)"
+          }
+        }
+      }
+    },
+    "search.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "חיפוש"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search"
+          }
+        }
+      }
+    },
+    "search.prompt": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "מילה בספר"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A word in the book"
+          }
+        }
+      }
+    },
+    "search.empty": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "הקלידו מילה בעברית. ראשי תיבות נמצאים עם גרשיים ובלעדיהם, למשל חז״ל או חזל."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Type a Hebrew word. Abbreviations are found with or without quote marks, for example חז״ל or חזל."
+          }
+        }
+      }
+    },
+    "search.noResults": {
+      "extractionState": "manual",
+      "localizations": {
+        "he": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "אין תוצאות."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No results."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
