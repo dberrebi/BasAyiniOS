@@ -112,7 +112,7 @@ These addresses match the pages in `docs/`, which GitHub Pages publishes from `m
 
 - Support URL: https://dberrebi.github.io/BasAyiniOS/
 - Privacy Policy URL: https://dberrebi.github.io/BasAyiniOS/privacy/
-- Support contact: the GitHub issue tracker. App Store Connect also asks for a contact email in App Review Information; add one there and, if you like, on both pages.
+- Support email: ohrhachaimapp@gmail.com (shared with the Ohr HaChaim app for now). It is on both pages. Use it as the contact email in App Review Information too; the phone number there is seen only by Apple.
 
 ## Screenshots
 
